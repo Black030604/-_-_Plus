@@ -1,0 +1,14 @@
+﻿<Window x:Class="Числовой_квест_Plus.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Числовой_квест_Plus"
+        mc:Ignorable="d"
+        Title="Числовой квест PLUS" Height="450" Width="800">
+    <Grid>
+        <TextBlock x:Name="GameOutputTb" TextWrapping="Wrap" Margin="10" Height="300" VerticalAlignment="Top"/>
+        <TextBox x:Name="UserInputTb" Margin="10,320,10,10" VerticalAlignment="Bottom"/>
+        <Button x:Name="sendBtn" Content="Отправить" Margin="10,360,10,10" Click="sendBtn_Click"/>
+    </Grid>
+</Window>
