@@ -160,7 +160,7 @@ namespace Числовой_квест_Plus
             int damage = random.Next(10, 21);
             playerHealth -= damage;
             GameOutputTb.Text += $"\nВы попали в ловушку и потеряли {damage} HP! Ваше здоровье: {playerHealth} HP";
-            вс
+            
             if (playerHealth <= 0)
             {
                 GameOutputTb.Text += "\nВы погибли! Игра окончена.";
